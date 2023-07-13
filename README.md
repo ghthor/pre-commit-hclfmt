@@ -14,7 +14,7 @@ To use, add the following to your `.pre-commit-hooks.yaml`:
 
 ```yaml
 - repo: https://github.com/ghthor/pre-commit-hclfmt
-  rev: master
+  rev: v1.0.0
   hooks:
     - id: hclfmt
 ```

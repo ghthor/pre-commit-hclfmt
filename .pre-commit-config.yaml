@@ -10,6 +10,6 @@ repos:
     - id: check-executables-have-shebangs
 
 - repo: https://github.com/ghthor/pre-commit-hclfmt
-  rev: 46544ea10a4050eb4c17c173554f840e8169c97b
+  rev: v1.0.0
   hooks:
     - id: hclfmt
