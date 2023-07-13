@@ -1,6 +1,6 @@
 repos:
-- repo: git://github.com/pre-commit/pre-commit-hooks
-  rev: v1.2.3
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
   hooks:
     - id: check-yaml
     - id: end-of-file-fixer
@@ -8,3 +8,8 @@ repos:
     - id: check-case-conflict
     - id: check-merge-conflict
     - id: check-executables-have-shebangs
+
+- repo: https://github.com/ghthor/pre-commit-hclfmt
+  rev: 46544ea10a4050eb4c17c173554f840e8169c97b
+  hooks:
+    - id: hclfmt
