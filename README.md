@@ -10,7 +10,7 @@ there are not precompiled binaries available.
 
 ## Usage
 
-To use, add the following to your `.pre-commit-hooks.yaml`:
+To use, add the following to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://github.com/ghthor/pre-commit-hclfmt
